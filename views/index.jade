@@ -1,0 +1,8 @@
+form(method="post", enctype="multipart/form-data", action="/upload")
+        fieldset
+            legend 上传图片
+            p
+                label(for="user[imgs]") Image:
+                    input(type="file", name="imgs")
+            p.buttons
+                input(type="submit", value="上传")
